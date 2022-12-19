@@ -3,23 +3,34 @@
 <head>
     <title>Edit Task</title>
     <link rel="stylesheet" href="./Style_To_Do.css">
+    <script src="https://kit.fontawesome.com/3659402162.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1><span>Tasks</span><span class="title">List</span></h1>
+        <h1><span>Tasks</span><span class="title"> List</span></h1>
     </header>
     <div class="back">
-        <a href="./TasksList_Website.html"><img src="./media/back-removebg-preview.png" alt="go back" class="three"/><span class="four">Back</span></a>
+        <a href="./TasksList_Website.html"><i class="fa-solid fa-circle-arrow-left fa-2x" style="color:#424242"></i><span class="four">Back</span></a>
     </div>
     <div class="plus place">
-        <a href="./AddNewItem.html"><span class="one">+</span><span class="two">Add New Task</span></a>
+        <a href="./AddNewItem.html"><i class="fa-sharp fa-solid fa-circle-plus fa-3x"></i><span class="two">Add New Task</span></a>
     </div>
     <div class="TaskList place1">
         <div class="task size1">
-            <h4>Trip to Paris</h4><hr>
+            <h3>Trip to Paris</h3><hr>
             <ul>
-                <li class="crossed"><img src="./media/done.png" class="done" alt="tick"/> Visit Church</li>
-                <li class="uncrossed"><img src="./media/notdone.png"class="notdone" alt="no tick"/> Shopping</li>
+                <li>
+                    <label class="fancybox">
+                        <input type="checkbox" checked="checked" />
+                        <span>Visit Church</span>
+                    </label>
+                </li><br>
+                <li>
+                    <label class="fancybox">
+                        <input type="checkbox" />
+                        <span>Shopping</span>
+                    </label>
+                </li>
             </ul>
         </div>
     </div>

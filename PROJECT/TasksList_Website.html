@@ -1,59 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Welcome to TasksList Web App</title>
+    <title>Welcome to TasksList</title>
     <link rel="stylesheet" href="./Style_To_Do.css">
+    <script src="https://kit.fontawesome.com/3659402162.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1><span>Tasks</span><span class="title">List</span></h1>
+        <h1><span>Tasks</span><span class="title"> List</span></h1>
     </header>
     <div class="plus">
-        <a href="./AddNewTask.html"><span class="one">+</span><span class="two">Add New Task</span></a>
+        <a href="./AddNewTask.html"><i class="fa-sharp fa-solid fa-circle-plus fa-2x"></i><span class="two">Add New Task</span></a>
     </div>
     <div class="TaskList">
+
         <a href="./ParisTask.html">
         <div class="task">
-            <h4>Trip to Paris</h4><hr>
+            <h3>Trip to Paris</h3><hr>
             <ul>
-                <li class="crossed"><img src="./media/done.png" class="done" alt="tick"/> Visit Church</li>
-                <li class="uncrossed"><img src="./media/notdone.png"class="notdone" alt="no tick"/> Shopping</li>
+                <li>
+                    <label class="fancybox">
+                        <input type="checkbox" checked="checked" />
+                        <span>Visit Church</span>
+                    </label>
+                </li><br>
+                <li>
+                    <label class="fancybox">
+                        <input type="checkbox" />
+                        <span>Shopping</span>
+                    </label>
+                </li>
             </ul>
         </div>
         </a>
+
         <a href="#">
         <div class="task">
-            <h4>My To Do List</h4><hr>
+            <h3>My To Do List</h3><hr>
             <ul>
-                <li class="crossed"><img src="./media/done.png" class="done" alt="tick"/> Visit Supermarket</li>
-                <li class="uncrossed"><img src="./media/notdone.png"class="notdone" alt="no tick"/> Buy Vegetables</li>
+                <li>
+                    <label class="fancybox">
+                        <input type="checkbox" checked="checked" />
+                        <span>Visit Supermarket</span>
+                    </label>
+                </li><br>
+                <li>
+                    <label class="fancybox">
+                        <input type="checkbox" />
+                        <span>Buy Vegetables</span>
+                    </label>
+                </li>
             </ul>
         </div>
         </a>
+
         <a href="#">
         <div class="task">
-            <h4>Movies I will Watch</h4><hr>
+            <h3>Movies I will Watch</h3><hr>
             <ul>
-                <li class="crossed"><img src="./media/done.png" class="done" alt="tick"/> Stranger Things 4</li>
-                <li class="uncrossed"><img src="./media/notdone.png"class="notdone" alt="no tick"/> Avengers Endgame</li>
+                <li>
+                    <label class="fancybox">
+                        <input type="checkbox" checked="checked" />
+                        <span>Stranger Things 4</span>
+                    </label>
+                </li><br>
+                <li>
+                    <label class="fancybox">
+                        <input type="checkbox" />
+                        <span>Avengers Endgame</span>
+                    </label>
+                </li>
             </ul>
         </div>
         </a>
+
         <a href="#">
         <div class="task">
-            <h4>Daily Morning Routine for...</h4><hr>
+            <h3>Daily Morning Routine for...</h3><hr>
             <ul>
-                <li class="crossed"><img src="./media/done.png" class="done" alt="tick"/> Wake up at 6 AM</li>
-                <li class="uncrossed"><img src="./media/notdone.png"class="notdone" alt="no tick"/> Sleep at 10 PM</li>
+                <li>
+                    <label class="fancybox">
+                        <input type="checkbox" checked="checked" />
+                        <span>Wake up at 6 AM</span>
+                    </label>
+                </li><br>
+                <li>
+                    <label class="fancybox">
+                        <input type="checkbox" />
+                        <span>Sleep at 10 PM</span>
+                    </label>
+                </li>
             </ul>
         </div>
         </a>
+
         <a href="#">
         <div class="task">
-            <h4>Books to Read</h4><hr>
+            <h3>Books to Read</h3><hr>
             <ul>
-                <li class="crossed"><img src="./media/done.png" class="done" alt="tick"/> Design of Everyday</li>
-                <li class="uncrossed"><img src="./media/notdone.png"class="notdone" alt="no tick"/> Alchemist</li>
+                <li>
+                    <label class="fancybox">
+                        <input type="checkbox" checked="checked" />
+                        <span>Design of Everyday</span>
+                    </label>
+                </li><br>
+                <li>
+                    <label class="fancybox">
+                        <input type="checkbox" />
+                        <span>Alchemist</span>
+                    </label>
+                </li>
             </ul>
         </div>
         </a>

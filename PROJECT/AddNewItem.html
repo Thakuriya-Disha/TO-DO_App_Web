@@ -3,17 +3,50 @@
 <head>
     <title>Edit Task</title>
     <link rel="stylesheet" href="./Style_To_Do.css">
+    <script src="https://kit.fontawesome.com/3659402162.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="dark">
-        <a href="./ParisTask.html"><img src="./media/Capture1.png" alt="popup" /></a>
+        <header>
+            <h1><span>Tasks</span><span class="title"> List</span></h1>
+        </header>
+        <div class="back">
+            <a href="./TasksList_Website.html"><i class="fa-solid fa-circle-arrow-left fa-2x" style="color:#424242"></i><span class="four">Back</span></a>
+        </div>
+        <div class="plus place">
+            <a href="./AddNewItem.html"><i class="fa-sharp fa-solid fa-circle-plus fa-3x"></i><span class="two">Add New Task</span></a>
+        </div>
+        <div class="TaskList place1">
+            <div class="task size1">
+                <h3>Trip to Paris</h3><hr>
+                <ul>
+                    <li>
+                        <label class="fancybox">
+                            <input type="checkbox" checked="checked" />
+                            <span>Visit Church</span>
+                        </label>
+                    </li><br>
+                    <li>
+                        <label class="fancybox">
+                            <input type="checkbox" />
+                            <span>Shopping</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
     </div>
-    <div class="popup">
+
+    <div class="popup positioning">
         <div class="popupbox">
-            <h3><span>Add New Item</span><a href="./ParisTask.html"><span class="close"></span></a></h3>
+            <h3><span>Add New Item</span><a href="./ParisTask.html"><i class="fa-sharp fa-solid fa-x" style="color:grey"></i></a></h3>
             <hr>
-            <div class="itemadd1">Visit Famous Places</div><br>
-            <div class="itemadd2">+ Add Item</div>
+            <form>
+                <label for="task">
+                <input type="text" value="Visit Famous Places" name="task" id="task" /></label>
+                <input type="submit" value="+  Add Item" />
+            </form>
         </div>
     </div>
 </body>

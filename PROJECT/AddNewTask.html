@@ -1,19 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Add New Task</title>
     <link rel="stylesheet" href="./Style_To_Do.css">
+    <script src="https://kit.fontawesome.com/3659402162.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="dark">
-        <a href="./TasksList_Website.html"><img src="./media/Capture3.png" alt="popup" /></a>
+        <header>
+            <h1><span>Tasks</span><span class="title"> List</span></h1>
+        </header>
+        <div class="plus">
+            <a href="./AddNewTask.html"><i class="fa-sharp fa-solid fa-circle-plus fa-2x"></i><span class="two">Add New Task</span></a>
+        </div>
+        <div class="TaskList">
+    
+            <a href="./ParisTask.html">
+            <div class="task">
+                <h3>Trip to Paris</h3><hr>
+                <ul>
+                    <li>
+                        <label class="fancybox">
+                            <input type="checkbox" checked="checked" />
+                            <span>Visit Church</span>
+                        </label>
+                    </li><br>
+                    <li>
+                        <label class="fancybox">
+                            <input type="checkbox" />
+                            <span>Shopping</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            </a>
+    
+            <a href="#">
+            <div class="task">
+                <h3>My To Do List</h3><hr>
+                <ul>
+                    <li>
+                        <label class="fancybox">
+                            <input type="checkbox" checked="checked" />
+                            <span>Visit Supermarket</span>
+                        </label>
+                    </li><br>
+                    <li>
+                        <label class="fancybox">
+                            <input type="checkbox" />
+                            <span>Buy Vegetables</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            </a>
+    
+            <a href="#">
+            <div class="task">
+                <h3>Movies I will Watch</h3><hr>
+                <ul>
+                    <li>
+                        <label class="fancybox">
+                            <input type="checkbox" checked="checked" />
+                            <span>Stranger Things 4</span>
+                        </label>
+                    </li><br>
+                    <li>
+                        <label class="fancybox">
+                            <input type="checkbox" />
+                            <span>Avengers Endgame</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            </a>
+    
+            <a href="#">
+            <div class="task">
+                <h3>Daily Morning Routine for...</h3><hr>
+                <ul>
+                    <li>
+                        <label class="fancybox">
+                            <input type="checkbox" checked="checked" />
+                            <span>Wake up at 6 AM</span>
+                        </label>
+                    </li><br>
+                    <li>
+                        <label class="fancybox">
+                            <input type="checkbox" />
+                            <span>Sleep at 10 PM</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            </a>
+    
+            <a href="#">
+            <div class="task">
+                <h3>Books to Read</h3><hr>
+                <ul>
+                    <li>
+                        <label class="fancybox">
+                            <input type="checkbox" checked="checked" />
+                            <span>Design of Everyday</span>
+                        </label>
+                    </li><br>
+                    <li>
+                        <label class="fancybox">
+                            <input type="checkbox" />
+                            <span>Alchemist</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            </a>
+        </div>
     </div>
+
+
     <div class="popup">
         <div class="popupbox">
-            <h3><span>Add New Task</span><a href="./TasksList_Website.html"><span class="close"></span></a></h3>
+            <h3><span>Add New Task</span>
+            <a href="./TasksList_Website.html"><i class="fa-sharp fa-solid fa-x" style="color:grey"></i></a></h3>
             <hr>
-            <div class="itemadd1">Learn C++</div><br>
-            <div class="itemadd2">+ Add Task</div>
+            <form>
+            <label for="task">
+            <input type="text" value="Learn C++" name="task" id="task" /></label>
+            <input type="submit" value="+ Add Task" />
+            </form>
         </div>
     </div>
 </body>
